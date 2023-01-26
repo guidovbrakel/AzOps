@@ -28,13 +28,11 @@ jobs:
 
       - name: "Configure"
         run: |
-          git config user.name guidovbrakel
-          git config user.email 'guido.vanbrakel@outlook.com
-
+          git config user.name github-actions
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
       - name: "Switch"
         run: |
           git checkout -b ${{ env.branch }}
-
       - name: "Dependencies"
         run: |
           ./scripts/Dependencies.ps1
