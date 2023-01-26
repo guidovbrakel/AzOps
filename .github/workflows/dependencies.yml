@@ -28,7 +28,7 @@ jobs:
 
       - name: "Configure"
         run: |
-          git config user.name github-actions
+          git config user.name guidovbrakel
           git config user.email 'guido.vanbrakel@outlook.com
 
       - name: "Switch"
